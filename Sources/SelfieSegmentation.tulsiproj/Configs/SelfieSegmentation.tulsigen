@@ -1,0 +1,55 @@
+{
+  "additionalFilePaths" : [
+    "mediapipe/examples/ios/selfiesegmentation/BUILD"
+  ],
+  "buildTargets" : [
+    "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation",
+    "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "SelfieSegmentation",
+  "sourceFilters" : [
+    "mediapipe/examples/ios",
+    "mediapipe/examples/ios/selfiesegmentation"
+  ]
+}

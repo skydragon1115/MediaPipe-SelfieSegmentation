@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB814B9D27D1012D00000000 /* SelfieSegmentation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9EC1B8327D1012D00000000 /* SelfieSegmentation.mm */; };
+		CB814B9D27D1012D00000001 /* SelfieSegmentation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9EC1B8327D1012D00000000 /* SelfieSegmentation.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F911A1E950E8414B00000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2ABE2FEFCD2F1600000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F9FCCD50E8414A00000000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9EC1B8311FFA27A00000000 /* SelfieSegmentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SelfieSegmentation.h; path = mediapipe/examples/ios/selfiesegmentation/SelfieSegmentation.h; sourceTree = "<group>"; };
+		C9EC1B831C4242BE00000000 /* lib_idx_SelfieSegmentationLibrary_432324ED_ios_min11.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_SelfieSegmentationLibrary_432324ED_ios_min11.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EC1B8327D1012D00000000 /* SelfieSegmentation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SelfieSegmentation.mm; path = mediapipe/examples/ios/selfiesegmentation/SelfieSegmentation.mm; sourceTree = "<group>"; };
+		C9EC1B832F619E4800000000 /* lib_idx_SelfieSegmentationLibrary_432324ED_ios_min15.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_SelfieSegmentationLibrary_432324ED_ios_min15.2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EC1B83314F789200000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = mediapipe/examples/ios/selfiesegmentation/Info.plist; sourceTree = "<group>"; };
+		C9EC1B833A88B1F000000000 /* libmediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EC1B8381C228F400000000 /* SelfieSegmentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SelfieSegmentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EC1B839D6AA96900000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = mediapipe/examples/ios/selfiesegmentation/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		C9EC1B83E485071500000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "SelfieSegmentation.xcodeproj/.tulsi/tulsi-execution-root/bazel-tulsi-includes/x/x/mediapipe/examples/ios/selfiesegmentation/SelfieSegmentation-intermediates/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8B15E1632A4E24D900000000 /* SelfieSegmentation-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC1B83E485071500000000 /* Info.plist */,
+			);
+			name = "SelfieSegmentation-intermediates";
+			sourceTree = "<group>";
+		};
+		8B15E163300CF56F00000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163300CF56F00000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		8B15E163300CF56F00000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163E7529A7400000000 /* mediapipe */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		8B15E16363C48AA700000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E1638D412CBC00000000 /* Indexer */,
+				C9EC1B8381C228F400000000 /* SelfieSegmentation.framework */,
+				8B15E163DC79431D00000000 /* bazel-tulsi-includes */,
+				C9EC1B833A88B1F000000000 /* libmediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B15E163719C0B3100000000 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163BF2E87CE00000000 /* selfiesegmentation */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		8B15E163719C0B3100000001 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163BF2E87CE00000001 /* selfiesegmentation */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		8B15E1637287DE4E00000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E16363C48AA700000000 /* Products */,
+				8B15E163E7529A7400000001 /* mediapipe */,
+			);
+			name = mainGroup;
+			path = ../../../..;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B15E1638D412CBC00000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC1B831C4242BE00000000 /* lib_idx_SelfieSegmentationLibrary_432324ED_ios_min11.0.a */,
+				C9EC1B832F619E4800000000 /* lib_idx_SelfieSegmentationLibrary_432324ED_ios_min15.2.a */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		8B15E1638FAF602900000000 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163719C0B3100000000 /* ios */,
+			);
+			name = examples;
+			sourceTree = "<group>";
+		};
+		8B15E1638FAF602900000001 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163719C0B3100000001 /* ios */,
+			);
+			name = examples;
+			sourceTree = "<group>";
+		};
+		8B15E163BF2E87CE00000000 /* selfiesegmentation */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E1632A4E24D900000000 /* SelfieSegmentation-intermediates */,
+			);
+			name = selfiesegmentation;
+			sourceTree = "<group>";
+		};
+		8B15E163BF2E87CE00000001 /* selfiesegmentation */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC1B839D6AA96900000000 /* BUILD */,
+				C9EC1B83314F789200000000 /* Info.plist */,
+				C9EC1B8311FFA27A00000000 /* SelfieSegmentation.h */,
+				C9EC1B8327D1012D00000000 /* SelfieSegmentation.mm */,
+			);
+			name = selfiesegmentation;
+			sourceTree = "<group>";
+		};
+		8B15E163DC79431D00000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E163300CF56F00000000 /* x */,
+			);
+			name = "bazel-tulsi-includes";
+			sourceTree = "<group>";
+		};
+		8B15E163E7529A7400000000 /* mediapipe */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E1638FAF602900000000 /* examples */,
+			);
+			name = mediapipe;
+			sourceTree = "<group>";
+		};
+		8B15E163E7529A7400000001 /* mediapipe */ = {
+			isa = PBXGroup;
+			children = (
+				8B15E1638FAF602900000001 /* examples */,
+			);
+			name = mediapipe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		19F9FCCD50E8414A00000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = 2BA9D68CAD8DB0FE00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "${SRCROOT}/../../../..";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		3CB950CC9AAB727000000000 /* _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9D68C4BB5D10A00000000 /* Build configuration list for PBXNativeTarget "_idx_SelfieSegmentationLibrary_432324ED_ios_min15.2" */;
+			buildPhases = (
+				E6C184CC0000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058362AB50E8414B00000000 /* PBXTargetDependency */,
+			);
+			name = _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2;
+			productName = _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2;
+			productReference = C9EC1B832F619E4800000000 /* lib_idx_SelfieSegmentationLibrary_432324ED_ios_min15.2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3CB950CCD3CA0CF400000000 /* _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9D68CBFA4F10900000000 /* Build configuration list for PBXNativeTarget "_idx_SelfieSegmentationLibrary_432324ED_ios_min11.0" */;
+			buildPhases = (
+				E6C184CC0000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058362AB50E8414B00000000 /* PBXTargetDependency */,
+			);
+			name = _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0;
+			productName = _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0;
+			productReference = C9EC1B831C4242BE00000000 /* lib_idx_SelfieSegmentationLibrary_432324ED_ios_min11.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3CB950CCDF9A5E2C00000000 /* SelfieSegmentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9D68C69150F6200000000 /* Build configuration list for PBXNativeTarget "SelfieSegmentation" */;
+			buildPhases = (
+				6E408EF93DF7D20700000000 /* build //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058362AB50E8414B00000000 /* PBXTargetDependency */,
+			);
+			name = SelfieSegmentation;
+			productName = SelfieSegmentation;
+			productReference = C9EC1B8381C228F400000000 /* SelfieSegmentation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CB950CCF6E1E57200000000 /* mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9D68C9F22413600000000 /* Build configuration list for PBXNativeTarget "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary" */;
+			buildPhases = (
+				6E408EF9396AF26000000000 /* build //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058362AB50E8414B00000000 /* PBXTargetDependency */,
+			);
+			name = "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary";
+			productName = "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary";
+			productReference = C9EC1B833A88B1F000000000 /* libmediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2ABE2FEFCD2F1600000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2BA9D68C4EDEF7FB00000000 /* Build configuration list for PBXProject "SelfieSegmentation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 8B15E1637287DE4E00000000 /* mainGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB950CCDF9A5E2C00000000 /* SelfieSegmentation */,
+				19F9FCCD50E8414A00000000 /* _bazel_clean_ */,
+				3CB950CCD3CA0CF400000000 /* _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0 */,
+				3CB950CC9AAB727000000000 /* _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2 */,
+				3CB950CCF6E1E57200000000 /* mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E408EF9396AF26000000000 /* build //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/../../../..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+		6E408EF93DF7D20700000000 /* build //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/../../../..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6C184CC0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CB814B9D27D1012D00000000 /* SelfieSegmentation.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C184CC0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CB814B9D27D1012D00000001 /* SelfieSegmentation.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058362AB50E8414B00000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19F9FCCD50E8414A00000000 /* _bazel_clean_ */;
+			targetProxy = F911A1E950E8414B00000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A644E9DB3B42E68600000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = SelfieSegmentation;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "${SRCROOT}/../../../..";
+			};
+			name = Release;
+		};
+		A644E9DB3B42E68600000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediapipe.selfiesegmentation;
+				PRODUCT_NAME = SelfieSegmentation;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Release;
+		};
+		A644E9DB3B42E68600000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags/_virtual_includes/default_glog_headers",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf",
+					"$(TULSI_OUTPUT_BASE)/external/zlib",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/zlib",
+					"$(TULSI_OUTPUT_BASE)/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_absl",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_absl",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf/src",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		A644E9DB3B42E68600000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags/_virtual_includes/default_glog_headers",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf",
+					"$(TULSI_OUTPUT_BASE)/external/zlib",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/zlib",
+					"$(TULSI_OUTPUT_BASE)/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_absl",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_absl",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf/src",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		A644E9DB3B42E68600000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Release;
+		};
+		A644E9DB56372B3700000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = SelfieSegmentation;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "${SRCROOT}/../../../..";
+			};
+			name = Debug;
+		};
+		A644E9DB56372B3700000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediapipe.selfiesegmentation;
+				PRODUCT_NAME = SelfieSegmentation;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Debug;
+		};
+		A644E9DB56372B3700000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags/_virtual_includes/default_glog_headers",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf",
+					"$(TULSI_OUTPUT_BASE)/external/zlib",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/zlib",
+					"$(TULSI_OUTPUT_BASE)/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_absl",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_absl",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf/src",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		A644E9DB56372B3700000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_OUTPUT_BASE)/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/google_toolbox_for_mac",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags/_virtual_includes/default_glog_headers",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf",
+					"$(TULSI_OUTPUT_BASE)/external/zlib",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/zlib",
+					"$(TULSI_OUTPUT_BASE)/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_github_glog_glog_no_gflags",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_absl",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_absl",
+					"$(TULSI_OUTPUT_BASE)/external/com_google_protobuf/src",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/external/com_google_protobuf/src",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				OTHER_CFLAGS = (
+					"-DGLES_SILENCE_DEPRECATION=1",
+					"-DMEDIAPIPE_PROFILER_AVAILABLE",
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		A644E9DB56372B3700000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = Debug;
+		};
+		A644E9DBA72040B000000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = SelfieSegmentation;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "${SRCROOT}/../../../..";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		A644E9DBA72040B000000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediapipe.selfiesegmentation;
+				PRODUCT_NAME = SelfieSegmentation;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		A644E9DBA72040B000000002 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		A644E9DBD0064E1800000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = SelfieSegmentation;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "${SRCROOT}/../../../..";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		A644E9DBD0064E1800000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentation";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediapipe.selfiesegmentation;
+				PRODUCT_NAME = SelfieSegmentation;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		A644E9DBD0064E1800000002 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//mediapipe/examples/ios/selfiesegmentation:SelfieSegmentationLibrary";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = mediapipe/examples/ios/selfiesegmentation;
+				TULSI_XCODE_VERSION = 13.2.1.13C100;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		D8B90D3B27EED6D400FEE2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Debug;
+		};
+		D8B90D3C27EED6D400FEE2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Release;
+		};
+		D8B90D3D27EED6D400FEE2CB /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		D8B90D3E27EED6D400FEE2CB /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		D8B90D3F27EED6D400FEE2CB /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		D8B90D4027EED6D400FEE2CB /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min11.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		D8B90D4127EED6D400FEE2CB /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		D8B90D4227EED6D400FEE2CB /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_SelfieSegmentationLibrary_432324ED_ios_min15.2;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA9D68C4BB5D10A00000000 /* Build configuration list for PBXNativeTarget "_idx_SelfieSegmentationLibrary_432324ED_ios_min15.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A644E9DB56372B3700000003 /* Debug */,
+				A644E9DB3B42E68600000003 /* Release */,
+				D8B90D4127EED6D400FEE2CB /* __TulsiTestRunner_Debug */,
+				D8B90D4227EED6D400FEE2CB /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9D68C4EDEF7FB00000000 /* Build configuration list for PBXProject "SelfieSegmentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A644E9DB56372B3700000000 /* Debug */,
+				A644E9DB3B42E68600000000 /* Release */,
+				A644E9DBA72040B000000000 /* __TulsiTestRunner_Debug */,
+				A644E9DBD0064E1800000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9D68C69150F6200000000 /* Build configuration list for PBXNativeTarget "SelfieSegmentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A644E9DB56372B3700000001 /* Debug */,
+				A644E9DB3B42E68600000001 /* Release */,
+				A644E9DBA72040B000000001 /* __TulsiTestRunner_Debug */,
+				A644E9DBD0064E1800000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9D68C9F22413600000000 /* Build configuration list for PBXNativeTarget "mediapipe-examples-ios-selfiesegmentation-SelfieSegmentationLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A644E9DB56372B3700000004 /* Debug */,
+				A644E9DB3B42E68600000004 /* Release */,
+				A644E9DBA72040B000000002 /* __TulsiTestRunner_Debug */,
+				A644E9DBD0064E1800000002 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9D68CAD8DB0FE00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B90D3B27EED6D400FEE2CB /* Debug */,
+				D8B90D3C27EED6D400FEE2CB /* Release */,
+				D8B90D3D27EED6D400FEE2CB /* __TulsiTestRunner_Debug */,
+				D8B90D3E27EED6D400FEE2CB /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9D68CBFA4F10900000000 /* Build configuration list for PBXNativeTarget "_idx_SelfieSegmentationLibrary_432324ED_ios_min11.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A644E9DB56372B3700000002 /* Debug */,
+				A644E9DB3B42E68600000002 /* Release */,
+				D8B90D3F27EED6D400FEE2CB /* __TulsiTestRunner_Debug */,
+				D8B90D4027EED6D400FEE2CB /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F2ABE2FEFCD2F1600000000 /* Project object */;
+}
